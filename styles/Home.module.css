@@ -1,0 +1,56 @@
+.container {
+    background-image: url('https://i.imgur.com/oW87ZZP.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main_greet {
+    position: relative;
+    padding-left: 10vw;
+    padding-top: 15vw
+}
+
+.main_greet h1 {
+    color: rgb(246, 244, 230);
+    animation: glow-flicker 0.8s ease-in-out 0.3s infinite;
+    font-size: 7vh;
+    text-shadow: 0 0 20px rgb(246, 244, 230);
+}
+
+.name {
+    transition: all 0.3s ease-in-out;
+}
+
+.name:hover {
+    color: rgb(253, 211, 58);
+    text-shadow: 0 0 20px rgb(253, 211, 58);
+}
+
+.main_greet p1 {
+    color: rgb(246, 244, 230);
+    font-size: 2.3vh;
+}
+
+@keyframes glow-flicker {
+
+    0%,
+    19.999%,
+    22%,
+    62.999%,
+    64%,
+    64.999%,
+    70%,
+    100% {
+        text-shadow: 0 0 20px rgb(246, 244, 230);
+    }
+
+    20%,
+    21.999%,
+    63%,
+    63.999%,
+    65%,
+    69.999% {
+        text-shadow: 0 0 18px rgb(246, 244, 230);
+    }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.main_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    background: linear-gradient(rgb(19, 19, 19), rgba(0, 0, 0, 0));
+}
+
+.main_nav a {
+    color: rgb(246, 244, 230);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 0 0 4px rgb(246, 244, 230);
+
+}
+
+.main_nav a:hover {
+    color: rgb(253, 211, 58);
+    text-shadow: 0 0 12px rgb(253, 211, 58);
+}
